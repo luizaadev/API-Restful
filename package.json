@@ -1,0 +1,18 @@
+{
+  "name": "api-restful",
+  "version": "1.0.0",
+  "description": "Esse projeto está sendo realizado durante meus estudos com NodeJS. Se trata de uma API baseada no framework Express, para tratar requisições e enviar respostas aos endpoints para o usuário que acessa a API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js localhost 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "nodemon": "^2.0.21"
+  }
+}
