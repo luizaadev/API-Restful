@@ -89,6 +89,7 @@ router.patch('/:id', async (req, res) => {
 })
 
 // Deletar dados (Delete)
+
 router.delete('/:id', async (req, res) => {
 
     const id = req.params.id
